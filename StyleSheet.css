@@ -53,6 +53,8 @@ header {
 /*メイン*/
 .main {
     background-color: #F7F8F6;
+    width: 100%;
+    margin: 0 auto;
 }
 
 /*top-wrapper Welcomめんべるの文字位置*/
