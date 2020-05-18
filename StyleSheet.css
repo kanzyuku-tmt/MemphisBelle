@@ -1,0 +1,182 @@
+/*Googleフォント使用　便利だね*/
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+}
+
+/*ヘッダー*/
+header {
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    background-color: #254894;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 10;
+}
+
+/*ヘッダーのリンクコンテナの位置調整*/
+.headerLinks-container {
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 70px;
+    font-weight: bold;
+}
+
+/*リンクボタンの位置調整*/
+.link {
+    display: inline-block;
+    width: 170px;
+    margin: 0 40px 0 40px;
+    color: #EAC418;
+    text-decoration: none;
+    padding-top: 70px;
+    margin-top: -70px;
+}
+
+/*リンクにカーソルが載った時のアニメーション*/
+.link:hover {
+    background-color: #b3d4fc;
+    opacity: 0.7;
+}
+
+/*リンク遷移の際のページ位置調整*/
+.link-ancher {
+    padding-top: 70px;
+}
+
+
+
+/*メイン*/
+.main {
+    background-color: #F7F8F6;
+}
+
+/*top-wrapper Welcomめんべるの文字位置*/
+.top-wrapper {
+    height: 500px;
+    width: 100%;
+    padding: 180px 0 180px 0;
+    text-align: center;
+    background-image: url(img/top.jpg);
+    background-size: cover;
+}
+
+/*Welcomめんべるの文字の位置や色、大きさ*/
+.top-wrapper h1{
+    font-size: 60px;
+    color: #254894;
+    letter-spacing: 4px;
+    margin-top: 180px;
+    border-bottom: 3px solid #EAC418;
+}
+
+/*それぞれの項目が入るコンテナ全体の幅決定と、全体を中央に寄せる*/
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*見出しh2の統一をheaddingで行う*/
+.heading h2 {
+    color: #254894;
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-decoration-line: underline;
+    text-decoration-color: #EAC418;
+    padding: 50px;
+}
+
+/*pタグの統一もheading*/
+.heading p {
+    font-size: 15px;
+}
+
+
+
+/*FCの概要紹介*/
+/*FC紹介欄の高さ決定*/
+.fc-wrapper {
+    height: 1100px;
+}
+
+/*fcテキストh3のみ別の要素を入れたかったので別*/
+.fc-text h3 {
+    font-size: 30px;
+    margin: 50px 0 50px 0;
+    letter-spacing: 4px;
+    font-weight: bold;
+    background-color: #254894;
+    color: #EAC418;
+}
+
+/*fcメンバー紹介*/
+/*メンバー紹介の高さ決定*/
+.member-wrapper {
+    height: 1350px;
+}
+
+/*FCメンバーの一覧*/
+.content {
+    float: left;
+    width: 20%;
+    height: 400px;
+}
+
+.content img {
+    height: 250px;
+    width: 200px;
+}
+
+.content-name {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #254894;
+    margin: 10px 20px 10px 20px;
+}
+
+.content-text {
+    font-size: 13px;
+}
+
+
+/*その他SS Ather*/
+.ather-wrapper {
+    height: 1000px;
+}
+
+
+/*フッター*/
+footer {
+    height: 160px;
+    width: 100%;
+    text-align: center;
+    background-color: #254894;
+}
+
+.footer-container {
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.footer-container h4{
+    font-size: 15px;
+    color: #EAC418;
+    margin: 0px;
+    padding: 30px 15px 15px 15px;
+}
+
+.footer-container p {
+    font-size: 13px;
+    color: #EAC418;
+    margin: 0;
+    padding: 50px 15px 0px 15px;
+}
+
+
