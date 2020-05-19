@@ -1,7 +1,8 @@
 /*Googleフォント使用　便利だね*/
 body {
     font-family: 'Raleway', sans-serif;
-    margin: -10px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 /*ヘッダー*/
@@ -37,11 +38,11 @@ header {
     margin-top: -70px;
 }
 
-    /*リンクにカーソルが載った時のアニメーション*/
-    .link:hover {
-        background-color: #b3d4fc;
-        opacity: 0.7;
-    }
+/*リンクにカーソルが載った時のアニメーション*/
+.link:hover {
+    background-color: #b3d4fc;
+    opacity: 0.7;
+}
 
 /*リンク遷移の際のページ位置調整*/
 .link-ancher {
@@ -53,8 +54,6 @@ header {
 /*メイン*/
 .main {
     background-color: #F7F8F6;
-    width: 100%;
-    margin: 0 auto;
 }
 
 /*top-wrapper Welcomめんべるの文字位置*/
@@ -67,14 +66,14 @@ header {
     background-size: cover;
 }
 
-    /*Welcomめんべるの文字の位置や色、大きさ*/
-    .top-wrapper h1 {
-        font-size: 60px;
-        color: #254894;
-        letter-spacing: 4px;
-        margin-top: 180px;
-        border-bottom: 3px solid #EAC418;
-    }
+/*Welcomめんべるの文字の位置や色、大きさ*/
+.top-wrapper h1 {
+    font-size: 60px;
+    color: #254894;
+    letter-spacing: 4px;
+    margin-top: 180px;
+    border-bottom: 3px solid #EAC418;
+}
 
 /*それぞれの項目が入るコンテナ全体の幅決定と、全体を中央に寄せる*/
 .container {
@@ -118,25 +117,28 @@ header {
 
 .fc-icon img {
     width: 100%;
+    height: auto;
+    min-height: 100%;
 }
 
 /*fcメンバー紹介*/
 /*メンバー紹介の高さ決定*/
 .member-wrapper {
-    height: 1350px;
+    height: 2300px;
+    min-height: 100%;
 }
 
 /*FCメンバーの一覧*/
 .content {
     float: left;
-    width: 20%;
+    width: 30%;
     height: 400px;
 }
 
-    .content img {
-        height: 250px;
-        width: 200px;
-    }
+.content img {
+    height: 250px;
+    width: 200px;
+}
 
 .content-name {
     font-size: 20px;
@@ -171,16 +173,16 @@ footer {
     letter-spacing: 2px;
 }
 
-    .footer-container h4 {
-        font-size: 15px;
-        color: #EAC418;
-        margin: 0px;
-        padding: 30px 15px 15px 15px;
-    }
+.footer-container h4 {
+    font-size: 15px;
+    color: #EAC418;
+    margin: 0px;
+    padding: 30px 15px 15px 15px;
+}
 
-    .footer-container p {
-        font-size: 13px;
-        color: #EAC418;
-        margin: 0;
-        padding: 50px 15px 0px 15px;
-    }
+.footer-container p {
+    font-size: 13px;
+    color: #EAC418;
+    margin: 0;
+    padding: 50px 15px 0px 15px;
+}
