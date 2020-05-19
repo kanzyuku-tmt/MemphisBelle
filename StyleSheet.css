@@ -56,6 +56,8 @@ header {
 /*メイン*/
 .main {
     background-color: #F7F8F6;
+    width: 100%;
+    height: 0 auto;
 }
 
 /*top-wrapper Welcomめんべるの文字位置*/
@@ -115,6 +117,11 @@ header {
     font-weight: bold;
     background-color: #254894;
     color: #EAC418;
+}
+
+.fc-icon img {
+    width: 1080px;
+    height: 600px;
 }
 
 /*fcメンバー紹介*/
