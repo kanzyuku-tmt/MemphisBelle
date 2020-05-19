@@ -19,10 +19,7 @@ header {
 
 /*ヘッダーのリンクコンテナの位置調整*/
 .headerLinks-container {
-    display: inline-block;
-    margin: 0 auto;
     width: 100%;
-    height: 70px;
     font-size: 20px;
     letter-spacing: 2px;
     line-height: 70px;
@@ -31,20 +28,20 @@ header {
 
 /*リンクボタンの位置調整*/
 .link {
+    display: inline-block;
     width: 170px;
-    height: 70px;
     margin: 0 40px 0 40px;
     color: #EAC418;
     text-decoration: none;
-    padding: 50px 50px 23px 50px;
+    padding-top: 70px;
     margin-top: -70px;
 }
 
-/*リンクにカーソルが載った時のアニメーション*/
-.link:hover {
-    background-color: #b3d4fc;
-    opacity: 0.7;
-}
+    /*リンクにカーソルが載った時のアニメーション*/
+    .link:hover {
+        background-color: #b3d4fc;
+        opacity: 0.7;
+    }
 
 /*リンク遷移の際のページ位置調整*/
 .link-ancher {
@@ -56,6 +53,8 @@ header {
 /*メイン*/
 .main {
     background-color: #F7F8F6;
+    width: 100%;
+    margin: 0 auto;
 }
 
 /*top-wrapper Welcomめんべるの文字位置*/
@@ -68,14 +67,14 @@ header {
     background-size: cover;
 }
 
-/*Welcomめんべるの文字の位置や色、大きさ*/
-.top-wrapper h1{
-    font-size: 60px;
-    color: #254894;
-    letter-spacing: 4px;
-    margin-top: 180px;
-    border-bottom: 3px solid #EAC418;
-}
+    /*Welcomめんべるの文字の位置や色、大きさ*/
+    .top-wrapper h1 {
+        font-size: 60px;
+        color: #254894;
+        letter-spacing: 4px;
+        margin-top: 180px;
+        border-bottom: 3px solid #EAC418;
+    }
 
 /*それぞれの項目が入るコンテナ全体の幅決定と、全体を中央に寄せる*/
 .container {
@@ -117,11 +116,6 @@ header {
     color: #EAC418;
 }
 
-.fc-icon img {
-    width: 1080px;
-    height: 600px;
-}
-
 /*fcメンバー紹介*/
 /*メンバー紹介の高さ決定*/
 .member-wrapper {
@@ -135,10 +129,10 @@ header {
     height: 400px;
 }
 
-.content img {
-    height: 250px;
-    width: 200px;
-}
+    .content img {
+        height: 250px;
+        width: 200px;
+    }
 
 .content-name {
     font-size: 20px;
@@ -173,16 +167,16 @@ footer {
     letter-spacing: 2px;
 }
 
-.footer-container h4{
-    font-size: 15px;
-    color: #EAC418;
-    margin: 0px;
-    padding: 30px 15px 15px 15px;
-}
+    .footer-container h4 {
+        font-size: 15px;
+        color: #EAC418;
+        margin: 0px;
+        padding: 30px 15px 15px 15px;
+    }
 
-.footer-container p {
-    font-size: 13px;
-    color: #EAC418;
-    margin: 0;
-    padding: 50px 15px 0px 15px;
-}
+    .footer-container p {
+        font-size: 13px;
+        color: #EAC418;
+        margin: 0;
+        padding: 50px 15px 0px 15px;
+    }
