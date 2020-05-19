@@ -19,7 +19,10 @@ header {
 
 /*ヘッダーのリンクコンテナの位置調整*/
 .headerLinks-container {
-    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    width: 1200px;
+    height: 70px;
     font-size: 20px;
     letter-spacing: 2px;
     line-height: 70px;
@@ -28,12 +31,12 @@ header {
 
 /*リンクボタンの位置調整*/
 .link {
-    display: inline-block;
     width: 170px;
+    height: 70px;
     margin: 0 40px 0 40px;
     color: #EAC418;
     text-decoration: none;
-    padding-top: 70px;
+    padding: 50px 50px 23px 50px;
     margin-top: -70px;
 }
 
@@ -53,8 +56,6 @@ header {
 /*メイン*/
 .main {
     background-color: #F7F8F6;
-    width: 100%;
-    margin: 0 auto;
 }
 
 /*top-wrapper Welcomめんべるの文字位置*/
@@ -180,5 +181,3 @@ footer {
     margin: 0;
     padding: 50px 15px 0px 15px;
 }
-
-
