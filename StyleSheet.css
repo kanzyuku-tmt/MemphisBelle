@@ -1,7 +1,6 @@
 /*Googleフォント使用　便利だね*/
 body {
     font-family: 'Raleway', sans-serif;
-    width: 100%;
     margin: 0 auto;
 }
 
@@ -10,11 +9,10 @@ header {
     height: 70px;
     width: 100%;
     text-align: center;
+    align-items: center;/*IE用中央寄せ*/
     background-color: #254894;
+    display: flex;/*中央寄せ*/
     position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
     z-index: 10;
 }
 
@@ -30,7 +28,7 @@ header {
 /*リンクボタンの位置調整*/
 .link {
     display: inline-block;
-    width: 170px;
+    width: 140px;
     margin: 0 40px 0 40px;
     color: #EAC418;
     text-decoration: none;
@@ -80,6 +78,7 @@ header {
     width: 100%;
     margin: 0 auto;
     text-align: center;
+    height: 1710px;
 }
 
 /*見出しh2の統一をheaddingで行う*/
@@ -100,11 +99,6 @@ header {
 
 
 /*FCの概要紹介*/
-/*FC紹介欄の高さ決定*/
-.fc-wrapper {
-    height: 1100px;
-}
-
 /*fcテキストh3のみ別の要素を入れたかったので別*/
 .fc-text h3 {
     font-size: 30px;
@@ -122,16 +116,14 @@ header {
 }
 
 /*fcメンバー紹介*/
-/*メンバー紹介の高さ決定*/
-.member-wrapper {
-    height: 2300px;
-    min-height: 100%;
+/*FCメンバーの一覧*/
+.contents {
+    padding: 10px;
 }
 
-/*FCメンバーの一覧*/
 .content {
     float: left;
-    width: 30%;
+    width: 25%;
     height: 400px;
 }
 
