@@ -1,6 +1,14 @@
-/*Googleフォント使用　便利だね*/
+/*ルートのフォントサイズを10px指定*/
+html {
+    font-size: 62.5%;
+}
+
+/*Googleフォント使用*/
+/*デフォルトを16pxに指定*/
 body {
     font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem; /*16px*/
+    line-height: 2;
     margin: 0 auto;
 }
 
@@ -28,8 +36,8 @@ header {
 /*リンクボタンの位置調整*/
 .link {
     display: inline-block;
-    width: 140px;
-    margin: 0 40px 0 40px;
+    width: 175px;
+    margin: 0 20px 0 20px;
     color: #EAC418;
     text-decoration: none;
     padding-top: 70px;
@@ -73,12 +81,12 @@ header {
     border-bottom: 3px solid #EAC418;
 }
 
-/*それぞれの項目が入るコンテナ全体の幅決定と、全体を中央に寄せる*/
+/*ページそれぞれの項目が入るコンテナ全体の幅決定と、全体を中央に寄せる*/
 .container {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    height: 1710px;
+    height: auto;
 }
 
 /*見出しh2の統一をheaddingで行う*/
@@ -91,13 +99,6 @@ header {
     padding: 50px;
 }
 
-/*pタグの統一もheading*/
-.heading p {
-    font-size: 15px;
-}
-
-
-
 /*FCの概要紹介*/
 /*fcテキストh3のみ別の要素を入れたかったので別*/
 .fc-text h3 {
@@ -109,45 +110,52 @@ header {
     color: #EAC418;
 }
 
+.fc-text p {
+    font-size: 15px;
+}
+
 .fc-icon img {
-    width: 100%;
-    height: auto;
+    width: 980px;
+    height: 550px;
     min-height: 100%;
 }
 
 /*fcメンバー紹介*/
 /*FCメンバーの一覧*/
-.contents {
+.member-wrapper {
+    display: flex;
+    flex-wrap: wrap;
     padding: 10px;
 }
 
-.content {
-    float: left;
+.contents {
     width: 25%;
     height: 400px;
+    margin-bottom: 20px;
 }
 
-.content img {
+.contents img {
     height: 250px;
     width: 200px;
 }
 
 .content-name {
-    font-size: 20px;
     letter-spacing: 1px;
     font-weight: bold;
     color: #254894;
-    margin: 10px 20px 10px 20px;
+    margin: 10px 10px 10px 10px;
 }
 
 .content-text {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 
 /*その他SS Ather*/
 .ather-wrapper {
-    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
 }
 
 
