@@ -20,29 +20,25 @@
     </header>
 
     <!--ここからmain-->
-    <div class="main">
-        <!--background-color統一のためひとまとめ　widthは様子見で編集-->
+    <div class="main"><!--background-color統一のためひとまとめ-->
 
-        <div class="link-ancher" id="top">
-            <!--ヘッダーリンクtopのアンカー-->
-            <div class="top-wrapper">
-                <!--タイトル兼top部分-->
-                <h1>Welcome to Memphis Belle!!</h1>
+        <div class="link-ancher" id="top"><!--ヘッダーリンクtopのアンカー-->
+            <div class="container">
+                <div class="top-wrapper">
+                    <!--タイトル兼top部分-->
+                    <h1>Welcome to Memphis Belle!!</h1>
+                </div>
             </div>
         </div>
 
         <!--めんべるFCの説明-->
-        <div class="link-ancher" id="fc">
-            <!--ヘッダーリンクfcのアンカー-->
-            <div class="container">
-                <div class="fc-wrapper">
-                    <!--FC概要コンテナ-->
-                    <div class="heading">
-                        <!--FC概要タイトル　headingクラスでh2共通化-->
-                        <h2>-Memphis Belleについて-</h2>
-                    </div>
-                    <div class="fc-text">
-                        <!--テキストはコンテナごとにするため別クラス　FC概要-->
+        <div class="link-ancher" id="fc"><!--ヘッダーリンクfcのアンカー-->
+            <div class="container"><!--FC概要全体のコンテナ-->
+                <div class="heading"><!--FC概要タイトル　headingクラスでh2共通化-->
+                    <h2>-Memphis Belleについて-</h2>
+                </div>
+                <div class="fc-wrapper"><!--FC概要コンテナ-->
+                    <div class="fc-text"><!--テキストはコンテナごとにするため別クラス　FC概要-->
                         <p>私たちのFC、Memphis Belle(メンフィス ベル)、通称「めんべる」は、</p>
                         <h3>「頑張るアナタを応援するFC」</h3>
                         <p>
@@ -51,9 +47,8 @@
                             とにかく、自分のしたい事をして楽しみ、恐れずチャレンジをしてみましょう！<br>当FCは、そんなあなたを応援し、可能な限り力になっていきます。
                         </p>
                     </div>
-                    <div class="fc-icon">
-                        <!--FC集合写真-->
-                        <img src="img/fc-img.jpg" width="1080" height="607" />
+                    <div class="fc-icon"><!--FC集合写真-->
+                        <img src="img/fc-img.jpg" />
                         <p>～当FCでは、パイロットをイメージした制服も支給しています～</p>
                     </div>
                 </div>
@@ -61,83 +56,76 @@
         </div>
 
         <!--メンバ一覧-->
-        <div class="link-ancher" id="member">
-            <!--ヘッダーリンクのアンカー-->
-            <div class="container">
-                <!--メンバ一覧コンテナ-->
-                <div class="member-wrapper">
-                    <div class="heading">
-                        <!--メンバ一覧タイトル-->
-                        <h2>-Member-</h2>
+        <div class="link-ancher" id="member"><!--ヘッダーリンクのアンカー-->
+            <div class="container"><!--メンバ一覧ページ全体のコンテナ-->
+                <div class="heading"><!--メンバ一覧タイトル-->
+                    <h2>-Member-</h2>
+                </div>
+                <div class="member-wrapper"><!--メンバ一覧を格納するコンテナ-->
+                    <div class="contents"><!--一人ひとり名前とテキストをセットにするコンテナ-->
+                        <img src="img/Barna.jpg" class="content-image" />
+                        <h3 class="content-name">ばーな</h3>
+                        <p class="content-text">我らがFCリーダー<br>顔がいい</p>
                     </div>
                     <div class="contents">
-                        <!--メンバ一覧表示コンテンツをまとめるコンテナ-->
-                        <div class="content">
-                            <!--一人ひとり名前とテキストをセット-->
-                            <img src="img/Barna.jpg" class="content-image" />
-                            <div class="content-name">B</div>
-                            <div class="content-text">我らがFCリーダー 顔がいい</div>
-                        </div>
-                        <div class="content">
-                            <img src="img/Reis.jpg" class="content-image" />
-                            <div class="content-name">R</div>
-                            <div class="content-text">我らがサブマスター 見かけるといい事が起こる</div>
-                        </div>
-                        <div class="content">
-                            <img src="img/Choco.jpg" class="content-image" />
-                            <div class="content-name">C</div>
-                            <div class="content-text">蟹角ちょこアウラチャ FCハウス前が憩いの場</div>
-                        </div>
-                        <div class="content">
-                            <img src="img/Belmont.jpg" class="content-image" />
-                            <div class="content-name">B</div>
-                            <div class="content-text">イケオスッテ　憩いの場でよく寝ている</div>
-                        </div>
-                        <div class="content">
-                            <img src="img/Kamaage.jpg" class="content-image" />
-                            <div class="content-name">K</div>
-                            <div class="content-text">アップランド小麦粉(遺伝子組み換えではない)製のうどん</div>
-                        </div>
-                        <div class="content">
-                            <img src="img/Akane.jpg" class="content-image" />
-                            <div class="content-name">A</div>
-                            <div class="content-text">説明文説明文説明文</div>
-                        </div>
-                        <div class="content">
-                            <img src="img/Lupsregina.jpg" class="content-image" />
-                            <div class="content-name">L</div>
-                            <div class="content-text">説明文説明文説明文</div>
-                        </div>
-                        <div class="content">
-                            <img src="img/Alice.jpg" class="content-image" />
-                            <div class="content-name">A</div>
-                            <div class="content-text">説明文説明文説明文</div>
-                        </div>
-                        <div class="content">
-                            <img src="img/Sirica.jpg" class="content-image" />
-                            <div class="content-name">S</div>
-                            <div class="content-text">説明文説明文説明文</div>
-                        </div>
-                        <div class="content">
-                            <img src="img/barna.jpg" class="content-image" />
-                            <div class="content-name">Ha</div>
-                            <div class="content-text">褐色はいいぞおじさん 種族変えても必ず褐色</div>
-                        </div>
-                        <div class="content">
-                            <img src="img/Marcelo.jpg" class="content-image" />
-                            <div class="content-name">M</div>
-                            <div class="content-text">説明文説明文説明文</div>
-                        </div>
-                        <div class="content">
-                            <img src="img/Remiria.jpg" class="content-image" />
-                            <div class="content-name">R</div>
-                            <div class="content-text">説明文説明文説明文</div>
-                        </div>
-                        <div class="content">
-                            <img src="img/Tera.jpg" class="content-image" />
-                            <div class="content-name">T</div>
-                            <div class="content-text">説明文説明文説明文</div>
-                        </div>
+                        <img src="img/Reis.jpg" class="content-image" />
+                        <h3 class="content-name">Reiさん</h3>
+                        <p class="content-text">我らがサブマスター<br>見かけるといい事が起こる</p>
+                    </div>
+                    <div class="contents">
+                        <img src="img/Choco.jpg" class="content-image" />
+                        <h3 class="content-name">ちょこちり</h3>
+                        <p class="content-text">蟹角ちょこアウラチャ<br>FCハウス前が憩いの場</p>
+                    </div>
+                    <div class="contents">
+                        <img src="img/Belmont.jpg" class="content-image" />
+                        <h3 class="content-name">ベルモント</h3>
+                        <p class="content-text">イケオスッテ<br>憩いの場でよく寝ている</p>
+                    </div>
+                    <div class="contents">
+                        <img src="img/Kamaage.jpg" class="content-image" />
+                        <h3 class="content-name">うどんちゃん(すごくかわいい)</h3>
+                        <p class="content-text">アップランド小麦粉(遺伝子組み換えではない)<br>うどん</p>
+                    </div>
+                    <div class="contents">
+                        <img src="img/Akane.jpg" class="content-image" />
+                        <h3 class="content-name">あかねさん</h3>
+                        <p class="content-text">説明文説明文説明文</p>
+                    </div>
+                    <div class="contents">
+                        <img src="img/Lupsregina.jpg" class="content-image" />
+                        <h3 class="content-name">Lupsさん</h3>
+                        <p class="content-text">説明文説明文説明文</p>
+                    </div>
+                    <div class="contents">
+                        <img src="img/Alice.jpg" class="content-image" />
+                        <h3 class="content-name">ありすさん</h3>
+                        <p class="content-text">説明文説明文説明文</p>
+                    </div>
+                    <div class="contents">
+                        <img src="img/Sirica.jpg" class="content-image" />
+                        <h3 class="content-name">しりかさん</h3>
+                        <p class="content-text">説明文説明文説明文</p>
+                    </div>
+                    <div class="contents">
+                        <img src="img/barna.jpg" class="content-image" />
+                        <h3 class="content-name">ブソブソ</h3>
+                        <p class="content-text">褐色はいいぞおじさん<br>種族変えても必ず褐色</p>
+                    </div>
+                    <div class="contents">
+                        <img src="img/Marcelo.jpg" class="content-image" />
+                        <h3 class="content-name">マルおじ</h3>
+                        <p class="content-text">説明文説明文説明文</p>
+                    </div>
+                    <div class="contents">
+                        <img src="img/Remiria.jpg" class="content-image" />
+                        <h3 class="content-name">レミリアさん</h3>
+                        <p class="content-text">説明文説明文説明文</p>
+                    </div>
+                    <div class="contents">
+                        <img src="img/Tera.jpg" class="content-image" />
+                        <h3 class="content-name">てらさん</h3>
+                        <p class="content-text">説明文説明文説明文</p>
                     </div>
                 </div>
             </div>
@@ -145,27 +133,22 @@
 
         <!--今日のめんべるSS-->
         <div class="link-ancher" id="ather">
-            <div class="container">
-                <!--Atherコンテナ-->
-                <div class="ather-wrapper">
-                    <div class="heading">
-                        <!--タイトル-->
-                        <h2>-Ather-</h2>
+            <div class="container"><!--Ather全体コンテナ-->
+                <div class="heading"><!--タイトル-->
+                    <h2>-Ather-</h2>
+                </div>
+                <div class="ather-wrapper"><!--SSコンテンツ-->
+                    <div class="contents">
+                        <img src="#" class="contents-image" />
                     </div>
                     <div class="contents">
-                        <!--SSコンテンツ-->
-                        <div class="content">
-                            <img src="#" class="contents-image" />
-                        </div>
-                        <div class="content">
-                            <img src="#" class="contents-image" />
-                        </div>
-                        <div class="content">
-                            <img src="#" class="contents-image" />
-                        </div>
-                        <div class="content">
-                            <img src="#" class="contents-image" />
-                        </div>
+                        <img src="#" class="contents-image" />
+                    </div>
+                    <div class="contents">
+                        <img src="#" class="contents-image" />
+                    </div>
+                    <div class="contents">
+                        <img src="#" class="contents-image" />
                     </div>
                 </div>
             </div>
